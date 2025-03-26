@@ -29,7 +29,7 @@ export default function CVTemplate() {
   const fileInputRef = useRef(null)
 
   // Avatar
-  const [avatar, setAvatar] = useState(null)
+  const [avatar, setAvatar] = useState("./avatar.jpg")
 
   // Header information
   const [name, setName] = useState("Tran Doan Kien Thuc")
